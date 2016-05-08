@@ -1,26 +1,43 @@
 <html>
 	<head>
-		<title>.::Bienvenidos::.</title>
-		<link rel="stylesheet" href="css/miestilo.css">
-		<style>
-		 h1{color: Red; text-decoration: underline;}
-		div{ width: 400px; background: brown;}
-		.TextoEndDiv{color: white}
-		</style>
+		<title>.::Bienvenidos::.</title>	
+		<link href="bootstrap/css/bootstrap.min.css" media="screen"  rel="stylesheet" />
 	</head>
-	<body>
-		<!-- Aplicación en linea css -->
-		<h1 style = "color: blue; font size: 18px">Introducción</h1>
+	<body>	
+	    <div class="container">
+		<h1>Introducción<small>Desarrollo Web</small></h1>
 		<h2>Primer tema</h2>
 		<div>
-			<p class="TextoEndDiv">
+			<p>
 				Este es un párrafo de ejemplo, espero que  todo haya salido bien.
 			</p>
 			<p>
 				Estoy aplicando un estilo externo, el archivo se llama "miestilo.css"
 			</p>
-		</div>
+	               </div>
 		<h2>Segundo tema</h2>
-	
+			<div class="row">
+				<div class="col-md-4">
+					<img src="img/img1.jpg" class="img-rounded" width=200px height=200px>
+					<div class="caption">
+						<h2><b>Red Nose</b></h2>
+						<p>Tom de 3 Años</p>
+					</div>	
+				</div>
+				<div class="col-md-4">
+					<img src="img/img2.jpg" class="img-circle" width=200px height=200px>
+					<div class="caption">
+						<h2><b>Silver Found</b></h2>
+						<p>Tyron de Cachorro</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img src="img/img3.jpg" class="img-thumbnail" width=300px height=200px>
+					<h1><b>Black Nose</b></h1>
+					<p>Kira de 2 años y medio</p>
+				</div>
+			</div>
+			
+	    </div>	
 	</body>
 </html>
